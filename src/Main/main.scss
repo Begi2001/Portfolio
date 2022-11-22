@@ -1,0 +1,28 @@
+.wrapper-main {
+  padding: 0 1px;
+  max-width: 1210px;
+  height: auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-inline: auto;
+  gap: 25px;
+  margin-bottom: 60px;
+  ::-moz-selection {
+    background: #ffdb70;
+  }
+  ::selection {
+    background: #ffdb70;
+    color: black;
+  }
+  @media (max-width: "1250px") {
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+    gap: 85px;
+    margin: 0px;
+    margin-bottom: 90px;
+    padding: 0 10px;
+  }
+}

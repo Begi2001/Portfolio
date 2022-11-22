@@ -1,0 +1,64 @@
+.clinets {
+  .title-clients {
+    font-size: 24px;
+    color: #fafafa;
+    font-weight: 800;
+    padding: 0 30px;
+    @media (max-width: 570px) {
+      font-size: 18px;
+    }
+  }
+  ::-webkit-scrollbar {
+    background-color: #202022;
+  }
+  ::-webkit-scrollbar-button {
+    background: #1e1e1f;
+    width: 75px;
+    @media (max-width: 760px) {
+      width: 20px;
+    }
+  }
+  ::-webkit-scrollbar-thumb {
+    height: 20px;
+    background-color: #ffdb70;
+    border-radius: 10px !important;
+  }
+  ::-webkit-scrollbar {
+    height: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 10px #2a2c2af2;
+    border-radius: 10px !important;
+  }
+  .clients-list {
+    display: flex;
+    overflow-x: auto;
+    gap: 50px;
+    padding: 45px;
+    scroll-behavior: smooth;
+    scroll-snap-type: inline mandatory !important;
+    @media (max-width: 570px) {
+      padding: 20px 25px;
+    }
+    .clients-item {
+      scroll-snap-align: center;
+      min-width: calc(25% - 38px);
+      display: flex;
+      justify-content: center;
+      @media (max-width: 1020px) {
+        min-width: calc(33.33% - 35px);
+      }
+      .img-size {
+        width: 100%;
+        filter: grayscale(1);
+        &:hover {
+          filter: grayscale(0);
+          transition: 0.25s ease;
+        }
+        @media (max-width: 570px) {
+          width: 95px;
+        }
+      }
+    }
+  }
+}
