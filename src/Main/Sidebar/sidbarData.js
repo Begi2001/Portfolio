@@ -40,23 +40,22 @@ export const dataContact = [
 export const dataLinks = [
   {
     id: 1,
-
     app: <TelegramIcon />,
     url: "https://xn--80affa3aj0al.xn--80asehdb/",
   },
   {
     id: 1,
     app: <LinkedInIcon />,
-    url: "https://ru.linkedin.com",
+    url: "https://www.linkedin.com/in/behzodbek-tursunboyev-825743249/",
   },
   {
     id: 2,
     app: <GitHubIcon />,
-    url: "https://github.com/Bek8866",
+    url: "https://github.com/Begi2001",
   },
   {
     id: 3,
     app: <InstagramIcon />,
-    url: "https://instagram.com",
+    url: "https://www.instagram.com",
   },
 ];

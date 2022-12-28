@@ -1,9 +1,8 @@
 import React from "react";
-
 import "./portfolio.scss";
-
 import MedArt from "./CardsImg/medart.png";
 import Travel from "./CardsImg/travel.png";
+import Academia from "./CardsImg/academia.png";
 import Californiya from "./CardsImg/californiya.png";
 import Miami from "./CardsImg/miami.png";
 import Card from "./Cards/Card";
@@ -17,26 +16,33 @@ const dataCards = [
     url: "http://medartgroup.uz",
   },
   {
+    id: 3,
+    img: Academia,
+    name: "Best Online Education",
+    type: "e-Commerce",
+    url: "",
+  },
+  {
     id: 2,
     img: Travel,
     name: "Travel Pero",
     type: "e-Commerce",
     url: "",
   },
-  {
-    id: 3,
-    img: Californiya,
-    name: "Californiya",
-    type: "e-Commerce",
-    url: "",
-  },
-  {
-    id: 4,
-    img: Miami,
-    name: "Miami",
-    type: "e-Commerce",
-    url: "",
-  },
+  // {
+  //   id: 4,
+  //   img: Californiya,
+  //   name: "Californiya",
+  //   type: "e-Commerce",
+  //   url: "",
+  // },
+  // {
+  //   id: 5,
+  //   img: Miami,
+  //   name: "Miami",
+  //   type: "e-Commerce",
+  //   url: "",
+  // },
 ];
 
 const Portfolio = () => {
