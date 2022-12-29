@@ -20,7 +20,7 @@ const dataCards = [
     img: Academia,
     name: "Best Online Education",
     type: "e-Commerce",
-    url: "",
+    url: "https://educationbek2.netlify.app",
   },
   {
     id: 2,
