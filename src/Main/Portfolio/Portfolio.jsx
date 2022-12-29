@@ -3,8 +3,6 @@ import "./portfolio.scss";
 import MedArt from "./CardsImg/medart.png";
 import Travel from "./CardsImg/travel.png";
 import Academia from "./CardsImg/academia.png";
-import Californiya from "./CardsImg/californiya.png";
-import Miami from "./CardsImg/miami.png";
 import Card from "./Cards/Card";
 
 const dataCards = [

@@ -13,8 +13,11 @@ const AboutList = () => {
       </div>
       <section className="about-text">
         <p className="text-1">
-            My name is Bexzod and I am currently a talented and growing young frontend developer.
-            My future plan is to study and improve my skills , and work with  high level developers for progressing in the most popular company for being the best frontend developer        </p>
+          My name is Bexzod and I am currently a talented and growing young
+          frontend developer. My future plan is to study and improve my skills ,
+          and work with high level developers for progressing in the most
+          popular company for being the best frontend developer{" "}
+        </p>
         <p className="text-2">
           My job is to build your website so that it is functional and
           user-friendly but at the same time attractive. Moreover, I add

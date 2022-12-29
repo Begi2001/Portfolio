@@ -16,7 +16,7 @@ const Sidebar = () => {
       </div>
       <div className="sidebar-info">
         <div className="avatar-box">
-          <img className="avatarImg" src={imgAvatar} />
+          <img className="avatarImg" src={imgAvatar} alt=''/>
         </div>
         <div className="name-job">
           <p className="name-avatar">Bexzodbek Tursunboyev</p>

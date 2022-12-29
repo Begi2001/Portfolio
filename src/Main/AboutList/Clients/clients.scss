@@ -45,6 +45,9 @@
       min-width: calc(25% - 38px);
       display: flex;
       justify-content: center;
+      div{
+        cursor: pointer;
+      }
       @media (max-width: 1020px) {
         min-width: calc(33.33% - 35px);
       }

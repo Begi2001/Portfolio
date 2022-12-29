@@ -7,7 +7,7 @@ const Card = ({ data }) => {
   const { id, img, name, type, url } = data;
   return (
     <div key={id} className="wrapper-card">
-      <a className="link-card" href={url} target="_blank">
+      <a className="link-card" rel="noreferrer" href={url} target="_blank">
         <div className="eye-box">
           <Eye className="box-img" />
         </div>

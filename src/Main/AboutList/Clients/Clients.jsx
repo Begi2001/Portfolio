@@ -37,9 +37,9 @@ const Clients = () => {
       <div className="clients-list">
         {dataClients.map((res, index) => (
           <div key={index} className="clients-item">
-            <a href="">
-              <img className="img-size" src={res.img} />
-            </a>
+            <div>
+              <img className="img-size" src={res.img} alt=''/>
+            </div>
           </div>
         ))}
       </div>
